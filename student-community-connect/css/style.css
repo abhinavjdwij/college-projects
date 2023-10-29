@@ -1,0 +1,20 @@
+body {
+	background-color: #c4edd0;
+}
+
+form {
+	margin: 0 auto;
+    width: 75%;
+}
+
+.forms {
+	margin: 0 auto;
+    width: 50%;
+    background-color: #c4edd0;
+}
+
+.post_pg_forms {
+	margin: 0 auto;
+    width: 10%;
+    background-color: #c4edd0;
+}
