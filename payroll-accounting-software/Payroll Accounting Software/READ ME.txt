@@ -1,0 +1,9 @@
+** Very Important: Please copy the folder named "Project" into the "C: Drive" before testing or change the appropriate settings in the project modules and database image addresses (clean emptable and paytable from maindb to remove such errors that occur due to non availability of the images on the machine).  The project has been tested on 2 separate computers and works fine when run from "C:\Project" directory. The project can either be run from the vb6 ide or from the stand-alone vb.exe file that lies in the project folder.
+
+** Important: We have decided against storing images directly as OLE objects in the database as they make the database bulky and the process is a little complex. Instead we have saved the image file-path to the database when it is uploaded by the user (this process is often used in web designing as images are not stored in the database but on some cloud service like Amazon AWS / Dropbox etc). In case of any issues regarding that, simply remove all the data from the emptable and paytable in the maindb.mdb file and start clean (i.e add new employees yourself on the machine)
+
+** Data Report (Report Width Larger than Paper Issue): On some computers, the data report may show a runtime error of "Report Width is Larger Than Paper Size". Such errors can be resolved by going in the Devices and Printer Section in the control panel and then default changing paper size to a bigger size (A3 works fine in most cases). This error occurs due to the reason that VB decides paper width at runtime and it is equal to system's default printer paper size.
+
+-- This project has been done by Abhinav Jha and Abhishek Anand (Roll 11 and 14, CSE 2nd Year) for the Software Tools Lab --
+
+/* Thank You */

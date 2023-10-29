@@ -1,0 +1,7 @@
+For Root Access :
+Username : admin
+Password : password
+
+For Normal Access:
+Username : assistant
+Password : passme
